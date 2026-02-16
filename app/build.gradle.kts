@@ -22,6 +22,22 @@ repositories {
 dependencies {
     // This dependency is used by the application.
     implementation(libs.guava)
+
+    // Jersey
+    implementation("org.glassfish.jersey.core:jersey-server:4.0.2")
+    implementation("org.glassfish.jersey.containers:jersey-container-grizzly2-http:4.0.2")
+    implementation("org.glassfish.jersey.inject:jersey-hk2:4.0.2")
+
+
+    // Guice
+    implementation("com.google.inject:guice:7.0.0")
+
+    // Jersey–Guice bridge
+    implementation("org.glassfish.hk2:guice-bridge:4.0.0-M3")
+
+
+    // JSON (optional but realistic)
+    implementation("org.glassfish.jersey.media:jersey-media-json-jackson:4.0.2")
 }
 
 testing {
@@ -43,5 +59,5 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "org.example.AppKt"
+    mainClass = "dev.alex.photos.app.MainKt"
 }
