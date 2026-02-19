@@ -1,0 +1,14 @@
+.nav {
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 10vw;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.navActions {
+    display: flex;
+    gap: 5vh;
+}
