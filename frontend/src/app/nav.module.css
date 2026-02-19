@@ -6,6 +6,7 @@
 
 .title {
     font-weight: bold;
+    pointer-events: none;
 }
 
 .navActions {
