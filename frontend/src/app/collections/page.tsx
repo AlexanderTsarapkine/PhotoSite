@@ -5,15 +5,52 @@ export default function Page() {
   return (
     <div>
       <main>
-          <div className={styles.imageContainer}>
-              <Image className={styles.image}
-                  src="/photos/TSA01164.jpg"
-                     // src="/photos/TSA00907.jpg"
-                  alt="Description of photo"
-                  fill={true}
-              />
-          </div>
+          <div className={styles.collectionContainer}>
 
+              <div className={styles.imageContainer}>
+                  <div className={styles.imageWrapper}>
+                      <Image className={styles.image}
+                             src="/photos/TSA01164.jpg"
+                             alt="Description of photo"
+                             fill={true}
+                      />
+                  </div>
+                  <p>something something about this</p>
+              </div>
+
+              <div className={styles.imageContainer}>
+                  <div className={styles.imageWrapper}>
+                      <Image className={styles.image}
+                             src="/photos/TSA00907.jpg"
+                             alt="Description of photo"
+                             fill={true}
+                      />
+                  </div>
+                  <p>something something about this</p>
+              </div>
+
+              <div className={styles.imageContainer}>
+                  <div className={styles.imageWrapper}>
+                      <Image className={styles.image}
+                             src="/photos/TSA01157.jpg"
+                             alt="Description of photo"
+                             fill={true}
+                      />
+                  </div>
+                  <p>something something about this</p>
+              </div>
+
+              <div className={styles.imageContainer}>
+                  <div className={styles.imageWrapper}>
+                      <Image className={styles.image}
+                             src="/photos/TSA01167.jpg"
+                             alt="Description of photo"
+                             fill={true}
+                      />
+                  </div>
+                  <p>something something about this</p>
+              </div>
+          </div>
       </main>
     </div>
   );
